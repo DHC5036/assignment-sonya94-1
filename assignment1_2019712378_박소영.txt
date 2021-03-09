@@ -1,0 +1,5 @@
+1. What happens to the gradient if you backpropagate through a long sequence?
+>> The gradient can easily vanish or explode.
+
+2. What happens if you increase the number of hidden layers in the RNN model?
+>> Only up to a certain point, the performance might be increase. However, further addition of hidden layers can actually harm the model's performance.
