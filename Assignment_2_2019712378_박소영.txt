@@ -1,0 +1,7 @@
+1. What happens if you implement only parts of a GRU, e.g., with only a reset gate or only an update gate?
+-> If we only implement reset getes, it will face with long-term dependencies in sequences. 
+On the other hand, if we only implement update gates, it will encounter short-term dependencies in sequences.
+
+2. Compare the computational cost for GRUs, LSTMs, and regular RNNs for a given hidden dimension. 
+Pay special attention to the training and inference cost.
+-> (more computational cost) LSTM > GRU > RNN
