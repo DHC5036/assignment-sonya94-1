@@ -1,0 +1,6 @@
+1. Can you design a learnable positional encoding method?
+
+
+2. What can be challenges to Transformers if input sequences are very long? why?
+
+
