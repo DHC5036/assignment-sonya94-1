@@ -1,6 +1,6 @@
 1. Can you design a learnable positional encoding method?
-
+Yes.
 
 2. What can be challenges to Transformers if input sequences are very long? why?
-
+If the input sequences are very long, the cost can be high. Becasue the memory of transformer and computation requirements grow in a quadratic way due to bottleneecks.
 
