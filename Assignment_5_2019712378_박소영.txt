@@ -1,0 +1,8 @@
+1. Assume that you want to balance a (real) ball on a (real) saddle.
+  1.1 Why is this hard?
+  -> 
+  1.2 Can you exploit this effect also for optimization algorithms?
+  -> 
+  
+2. What changes when we perform SGD with momentum? What happens when we use minibatch SGD with momentum?
+->
