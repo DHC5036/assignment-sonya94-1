@@ -1,8 +1,11 @@
 1. Assume that you want to balance a (real) ball on a (real) saddle.
   1.1 Why is this hard?
-  -> 
+  -> Because the ball keep trying to move due to the shape of the floor and the movement of the ball.
   1.2 Can you exploit this effect also for optimization algorithms?
-  -> 
+  -> Yes we can by controlling the learning rate. Set the force applied to the ball to the running rate. By controlling the learning rate, we can escape local minima and avoid diverge.
   
 2. What changes when we perform SGD with momentum? What happens when we use minibatch SGD with momentum?
-->
+-> If we perform SGD with momentum, the speed of convergence to optimal parameter can be accelerated. 
+Also, applying momentum effect high probability of search the global minumum by escaping from the local minumum. 
+
+If we use minibatch SGD with momentum, the same positive effects when we applied momentum as SGD can be expected. Moreover, since minibatch compute gradient over any small set of samples, minibatch SGD will work in a stable because of lower errer rate than SGD. 
