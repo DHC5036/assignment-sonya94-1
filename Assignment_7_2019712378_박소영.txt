@@ -1,0 +1,2 @@
+1. Is it efficient to use matrix multiplication to implement convolution operations? Why?
+-> 
