@@ -1,2 +1,2 @@
 1. Is it efficient to use matrix multiplication to implement convolution operations? Why?
--> 
+->  Yes. The convolution operation essentially performs dot products between the filters and local regions of the input. Instead of operating convolution elementwise, operating the forward pass of a convolutional layer as one big matrix is can be efficient.
