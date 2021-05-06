@@ -16,4 +16,4 @@
     to solve some NLP tasks like Natural Language Inference. Like any other ML model, BERT model shouldn’t be applied blindly to a task.
 
 2. Can we leverage BERT in clinical natural language processing?
--> Yes, especially if it's written only in a single language. 
+-> Yes, especially if it's written only in a single language. In other words, if more than one language are mixed( e.g. Korean and English), leverage BERT in clinical natural language processing may be have limitations as well as difficulties. However, it is expected to be fully utilized as much research is being done in Korea and the results and papers are being viewed positively.
