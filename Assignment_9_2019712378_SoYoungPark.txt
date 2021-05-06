@@ -1,0 +1,19 @@
+1. Why does BERT succeed?
+-> BERT embeddings work reasonably well for many tasks in NLP. There are some success stories in IR and CV. It is not a hammer to use for any ML problem.
+-> BERT embeddings are able to learn some generic NLP signals because of several benefits.
+  (1) Enabling a bidirectional flow of information: 
+        no more reliance on only the words to the left of a word (left context) like GPT-1 or shallow concatenation of the left and the right context like ELMo.
+  (2) Having a huge parameter budget:
+        340M is not a small investment
+  (3) Utilizing large amounts of data:
+        3300M words
+  (4) Advent of huge compute:
+        TPUs
+-> One of the least appreciated fact about BERT is that it was the first work in NLP to convincingly show that scaling the parameter budget 
+   (from small to large model sizes) leads to large improvements on tasks with very small datasets 
+   (where many thought that the max. performance has already been achieved)
+-> BERT has been criticized recently for relying on spurious signals (not the right signals we think a model should pick up on) 
+    to solve some NLP tasks like Natural Language Inference. Like any other ML model, BERT model shouldn’t be applied blindly to a task.
+
+2. Can we leverage BERT in clinical natural language processing?
+-> Yes, especially if it's written only in a single language. 
