@@ -1,0 +1,5 @@
+1. What kind of application can be possible using GAN in medical domain?
+-> Lymph node detection Lymph node segmentation
+Medical image (특히 3d 영상) 에서 lymph node를 detection 하거나 segmentation하는 application을 GAN을 활용해 구현한다면 흥미로울 것 같습니다.
+Lymph node는 암이 아닌 다른 이유로도 변화가 일어날 수 있기 때문에 정상인의 영상에서도 흔히 발견될 뿐만 아니라 그 크기와 형태가 혈관과 매우 유사하기 때문에
+사람의 눈으로 구분해 내기 어렵습니다. 이 한계를 GAN으로 극복해 눈으로 뚜렷하게 보기 어려운 특징을 분석하여 정확도를 올린다면 활용도가 매우 높을 것 같습니다.
